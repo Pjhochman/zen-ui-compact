@@ -1,0 +1,27 @@
+[
+  {
+    "property": "mod.zen_custom.opacity",
+    "label": "Background transparency",
+    "type": "dropdown",
+    "options": [
+      { "label": "Fully transparent", "value": "0" },
+      { "label": "High (very see-through)", "value": "0.6" },
+      { "label": "Medium", "value": "0.8" },
+      { "label": "Low (slightly dark)", "value": "0.9" },
+      { "label": "None (fully solid)", "value": "1" }
+    ],
+    "defaultValue": "1"
+  },
+  {
+    "property": "mod.zen_custom.border_radius",
+    "label": "Corner roundness",
+    "type": "dropdown",
+    "options": [
+      { "label": "Sharp (0px)", "value": "0px" },
+      { "label": "Slight (4px)", "value": "4px" },
+      { "label": "Default (8px)", "value": "8px" },
+      { "label": "Round (12px)", "value": "12px" },
+    ],
+    "defaultValue": "8px"
+  }
+]
