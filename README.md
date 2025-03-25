@@ -1,4 +1,4 @@
-# Zen UI: Floating Compact Layout
+# Floating Compact Layout
 
 Minimalist UI for Compact Mode — uses Zen colors, centers URL bar, and removes visual clutter.
 
