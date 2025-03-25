@@ -1,8 +1,25 @@
 # Zen UI: Compact URL + Sidebar
 
-A minimalist UI mod that applies the official Zen color palette, shrinks and centers the URL bar, vertically compresses the sidebar, and removes visual clutter for a cleaner, more focused browsing experience.
+A minimalist UI mod designed exclusively for compact mode — applies the official Zen color palette, shrinks and centers the URL bar, compresses the sidebar vertically, and removes visual clutter for a cleaner, more focused browsing experience.
 
 ---
+
+## Requirement
+
+This mod requires both **Compact Mode** and a **compatible browser layout** — it will not work with Zen’s default settings.
+
+**To enable Compact Mode:**
+
+① Left-click the navigation bar
+
+② Click “Compact Mode”
+
+③ Select “Enable Compact Mode”
+
+**Browser layout requirement:**
+
+Go to Settings → Browser Layout and select either “Multiple Toolbars” or “Collapsed Toolbar”.
+The “Single Toolbar” layout is not supported and will prevent the mod from working properly.
 
 ## 🌟 Features
 
@@ -15,42 +32,21 @@ A minimalist UI mod that applies the official Zen color palette, shrinks and cen
 
 ---
 
-## 🛠 Preferences Setup
-
-This mod **automatically applies** the recommended settings via JSON preferences, so you **don’t need to manually configure anything**.
-
-
-{
-  "zen.urlbar.behavior": "float",
-  "zen.view.compact": true,
-  "zen.view.compact.show-sidebar-and-toolbar-on-hover": true,
-  "zen.view.compact.hide-toolbar": true,
-  "zen.view.compact.hide-tabbar": true,
-  "zen.view.compact.animate-sidebar": true,
-  "zen.view.compact.toolbar-flash-popup": true
-}
-
-
-If certain features don’t work as expected, check your Zen Browser settings under **"Compact Mode" and "Zen URL Bar"** to ensure they align with your preferences.
-
----
-
 ## 💻 Toolbar Customization (macOS & Windows)
 
 ### 🪟 Windows:
 1. Right-click the sidebar → **Customize Toolbar**
 2. Remove all **Flexible Space** items to both the **left and right** of the URL input field.
    - This makes the URL bar's trigger area larger.
+  
+3. (Optional) Download Zen Mod Load Bar (v1.0.0) — Replaces the standard Windows window controls with a macOS-style design for a more minimal UI. 
 
 ### 🍎 macOS:
-1. Right-click the sidebar → **Customize Toolbar**
-2. Drag **two Flexible Space** items to both the **left and right** of the URL input field.
-3. _(Optional)_ For a perfectly symmetrical layout:
+1. _(Optional)_ Right-click the sidebar → **Customize Toolbar**
+2.  For a perfectly symmetrical layout:
    - Move the **Back Arrow** to the **left** of the URL input.
    - Move the **Forward Arrow** to the **right** of the URL input.
 
 **Suggested toolbar layout (left → right):**
 
-[Close] [Minimize] [Maximize] [Reload] [Back] 
-[URL Input] 
-[Forward] [Any two toolbar items of your choice] [Three-dot Menu]
+`Close` `Minimize` `Maximize` `Reload` `Back`  `     URL Input     `  `Forward` `Any two items of your choice` `Three-dot Menu`
