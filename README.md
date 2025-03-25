@@ -1,6 +1,6 @@
 # Zen UI: Compact URL + Sidebar
 
-A minimalist UI mod designed exclusively for compact mode — applies the official Zen color palette, shrinks and centers the URL bar, compresses the sidebar vertically, and removes visual clutter for a cleaner, more focused browsing experience.
+Minimalist UI for Compact Mode — uses Zen colors, centers URL bar, and removes visual clutter.
 
 ---
 
