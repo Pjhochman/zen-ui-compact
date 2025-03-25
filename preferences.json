@@ -20,7 +20,7 @@
       { "label": "Sharp (0px)", "value": "0px" },
       { "label": "Slight (4px)", "value": "4px" },
       { "label": "Default (8px)", "value": "8px" },
-      { "label": "Round (12px)", "value": "12px" },
+      { "label": "Round (12px)", "value": "12px" }
     ],
     "defaultValue": "8px"
   }
